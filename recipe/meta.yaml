@@ -1,5 +1,5 @@
 {% set name = "html2text" %}
-{% set version = "2020.1.16" %}
+{% set version = "2024.2.26" %}
 
 package:
   name: "{{ name|lower }}"
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: e296318e16b059ddb97f7a8a1d6a5c1d7af4544049a01e261731d2d5cc277bbb
+  sha256: 05f8e367d15aaabc96415376776cdd11afd5127a77fce6e36afc60c563ca2c32
 
 build:
   number: 0
